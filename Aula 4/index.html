@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+    <style>
+       .vermelho{font-size: 200; border-color: rgb(241, 38, 38);}
+    </style>
+</head>
+<>
+    <h1>Meu Titulo</h1>
+    <p>
+        A <b> academia </b> é um espaço onde o corpo se transforma 
+        A academia é um espaço onde o corpo se transforma 
+        através do esforço e da dedicação. 
+        Com equipamentos modernos e instrutores qualificados, 
+        é o lugar ideal para alcançar seus objetivos de condicionamento físico. 
+        Seja para ganhar músculos, perder peso ou simplesmente manter-se 
+        saudável, a academia oferece o ambiente perfeito para uma jornada de   
+    </p>
+
+    <hr>
+
+    <h2>Meu Titulo</h2>
+    A academia é um espaço onde o corpo se transforma 
+    através do esforço e da dedicação. 
+    Com equipamentos modernos e instrutores qualificados, 
+    é o lugar ideal para alcançar seus objetivos de <i>condicionamento físico.</i> 
+    Seja para ganhar músculos, perder peso ou simplesmente manter-se 
+    saudável, a academia oferece o ambiente perfeito para uma jornada de 
+
+    <hr>
+
+    <h3>Meu Titulo</h3>
+    A academia é um espaço onde o corpo se transforma 
+    através do esforço e da dedicação. 
+    Com equipamentos modernos e instrutores qualificados, 
+    é o lugar ideal para alcançar seus objetivos de condicionamento físico. 
+    Seja para ganhar músculos, perder <em>peso</em> ou simplesmente manter-se 
+    saudável, a academia oferece o ambiente perfeito para uma jornada de
+
+    <hr>
+
+    <h4>Meu Titulo</h4>
+    A academia é um espaço onde o corpo se transforma 
+    através do esforço e da dedicação. 
+    Com equipamentos modernos e instrutores qualificados, 
+    é o lugar ideal para alcançar seus objetivos de condicionamento físico. 
+    Seja para ganhar músculos, perder peso ou simplesmente manter-se 
+    saudável, a <a href="https://www.gympass.com/academias/em/sp/caieiras"> target="_blank">academia </a>
+     oferece o ambiente perfeito para uma jornada de 
+
+     <hr>
+
+     <h5><span class="vermelho">Texte</span></h5>
+     <q>A academia é um espaço onde o corpo se transforma</q>
+     através do esforço e da dedicação. 
+     Com equipamentos modernos e instrutores qualificados, 
+     é o lugar ideal para alcançar seus objetivos de condicionamento físico. 
+     Seja para ganhar músculos, perder peso ou simplesmente manter-se 
+     saudável, a academia oferece o ambiente <del>perfeito</del> <ins>recomendado</ins> uma jornada de
+     
+     <blockquote cite=" dawdaw"> quero ficar muito forte e marmoba 
+        <p>Vamos treinar e se alimentar muito</p>
+     </blockquote>
+   
+
+    <h6><span class="vermelho"> </span> Titulo</h6>
+
+    <code><pre>
+        ?php
+
+class ContaBancaria {
+    private $saldo;
+
+    // Construtor da classe
+    public function __construct($saldoInicial) {
+        $this->saldo = $saldoInicial;
+    }
+
+    // Método para depositar dinheiro na conta
+    public function depositar($valor) {
+        if ($valor > 0) {
+            $this->saldo += $valor;
+            echo "Depósito de $valor realizado com sucesso. Novo saldo: " . $this->saldo . "<br>";
+        } else {
+            echo "Erro: Valor inválido para depósito.<br>";
+        }
+    }
+
+    // Método para sacar dinheiro da conta
+    public function sacar($valor) {
+        if ($valor > 0 && $valor <= $this->saldo) {
+            $this->saldo -= $valor;
+            echo "Saque de $valor realizado com sucesso. Novo saldo: " . $this->saldo . "<br>";
+        } else {
+            echo "Erro: Valor inválido para saque ou saldo insuficiente.<br>";
+        }
+    }
+
+    // Método para verificar o saldo atual da conta
+    public function getSaldo() {
+        return $this->saldo;
+    }
+}
+
+// Exemplo de uso da classe
+$conta = new ContaBancaria(1000); // Cria uma conta com saldo inicial de 1000
+
+echo "Saldo inicial: " . $conta->getSaldo() . "<br>"; // Exibe o saldo inicial
+
+$conta->depositar(500); // Deposita 500 na conta
+$conta->sacar(200);     // Sacar 200 da conta
+$conta->sacar(2000);    // Tenta sacar um valor maior que o saldo disponível
+
+echo "Saldo final: " . $conta->getSaldo() . "<br>"; // Exibe o saldo final
+>
+    </code></pre>
+</body>
+</html>
