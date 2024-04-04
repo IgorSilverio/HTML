@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 800%;
+        }
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        table caption {
+            caption-side: top;
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px 5px;
+        }
+        tfoot td{
+            background-color: darkolivegreen;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Minha primeira tabela em HTMl</p>
+    <dvi class="responsive-table">
+    <table>
+        <caption>Tabela text</caption>
+        <thead>
+            <tr>
+                <th>Titlo 1</th>
+                <th>Titlo 2</th>
+                <th>Titlo 3</th>
+                <th>Titlo 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">corpo 2</td>
+
+            </tr>
+            <tr>
+                <td>corpo 1</td>
+                <td>corpo 2</td>
+                <td>corpo 3</td>
+                <td>corpo 4</td>
+            </tr>
+            <tr>
+                <td>corpo 1</td>
+                <td>corpo 2</td>
+                <td>corpo 3</td>
+                <td>corpo 4</td>
+            </tr>
+            <tr>
+                <td>corpo 1</td>
+                <td>corpo 2</td>
+                <td>corpo 3</td>
+                <td>corpo 4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" rowspan="3">Rodape</td>
+            </tr>
+            <tr>
+                <td rowspan="3">total</td>
+                <td>R$:50</td>
+            </tr>
+        </tfoot>
+    </table>
+    </dvicl>
+</body>
+</html>
