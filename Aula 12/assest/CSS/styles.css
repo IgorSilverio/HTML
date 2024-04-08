@@ -1,0 +1,12 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    color: deepskyblue;
+}
+main-content h2{
+    font-size: italic;
+ }
