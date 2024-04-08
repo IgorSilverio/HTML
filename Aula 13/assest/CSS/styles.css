@@ -4,9 +4,9 @@
     padding: 0;
 }
 
-.pai .um~ .dois{
+.heading{
     color: deepskyblue;
 }
-meu-atributi{
-    color: rgb(9, 30, 48);
-}
+main-content h2{
+    font-size: italic;
+ }
