@@ -1,0 +1,13 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pai .um + .dois{
+    color: deepskyblue;
+}
+
+[meu-atributo="valor"] {
+    color: rgb(59, 21, 53);
+}
