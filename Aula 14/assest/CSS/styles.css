@@ -1,13 +1,7 @@
 
-*{
-    margin: 0;
-    padding: 0;
+.heading{
+    transition: all 1s ease-in-out;
 }
-
-.pai .um + .dois{
-    color: deepskyblue;
-}
-
-[meu-atributo="valor"] {
-    color: rgb(59, 21, 53);
+.heading:hover {
+    background-color: rgb(6, 25, 59);
 }
